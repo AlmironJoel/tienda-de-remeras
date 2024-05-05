@@ -32,7 +32,30 @@
     </nav>
 
     <main class="contenedor">
-        <h1>Productos</h1>
+        <h1>React JS</h1>
+        <section class="camisa">
+            <img class="camisa__imagen" src="/img/3.jpg" alt="React">
+            <div class="camisa__contenido">
+                <p>
+                    Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat ante, non dignissim odio ligula at arcu.
+                </p>
+
+                <form class="formulario" >
+                    <h3>Selecciona tu talle:</h3>
+                    <select class="formulario__campo" name="talles">
+                        <option disabled selected value="select">--Selecciona un Talle--</option>
+                        <option value="small">Talle S</option>
+                        <option value="mediun">Talle M</option>
+                        <option value="low">Talle L</option>
+                    </select>
+                    <h3>Selecciona la Cantidad:</h3>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" max="15">
+
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
